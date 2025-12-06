@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c82f5741-1330-4c5b-bcc6-3e5e2b717c8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/numberPatternGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/freecodecamp python learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/freecodecamp python learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildPinExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/buildPinExtractor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
