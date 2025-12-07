@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c82f5741-1330-4c5b-bcc6-3e5e2b717c8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildMedicalData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.buildMedicalData.executor": "Run",
     "Python.buildPinExtractor.executor": "Run",
     "Python.modules.executor": "Run",
     "Python.numberPatternGenerator.executor": "Run",
