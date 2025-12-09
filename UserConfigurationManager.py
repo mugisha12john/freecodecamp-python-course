@@ -45,20 +45,60 @@
 # For testing the code, you should create a dictionary named test_settings to store some user configuration preferences.
 
 
-# def add_setting(dictionary):
-#     new_dict = {}
-#     for key in dictionary:
-#         new_dict.update({key.lower(): dictionary[key].lower()})
-#     return new_dict
-# print(add_setting({'yes': 'True', 'No': 'False'}))
+def add_setting(settings, pair):
+    key, value = pair
+    key = key.lower()
+    value = value.lower()
 
-def add_settting(dictionary, (key : value)):
-    if not dictionary[key]:
-        print(f"Setting '{key}' already exists! Cannot add a new setting with this name")
+    if key in settings:
+        return f"Setting '{key}' already exists! Cannot add a new setting with this name."
     else:
-        print(f"Setting '{key}' added with value '{value}' successfully!")
-        dictionary = {
-        key.lower():value.lower()
-        }
-        return dictionary
-print(add_settting({}, ('mugishA': 'yes')))
+        settings[key] = value
+        return f"Setting '{key}' added with value '{value}' successfully!"
+
+
+def update_setting(settings, pair):
+    key, value = pair
+    key = key.lower()
+    value = value.lower()
+
+    if key in settings:
+        settings[key] = value
+        return f"Setting '{key}' updated to '{value}' successfully!"
+    else:
+        return f"Setting '{key}' does not exist! Cannot update a non-existing setting."
+
+
+def delete_setting(settings, key):
+    key = key.lower()
+
+    if key in settings:
+        del settings[key]
+        return f"Setting '{key}' deleted successfully!"
+    else:
+        return "Setting not found!"
+
+
+def view_settings(settings):
+    if not settings:
+        return "No settings available."
+
+    output = "Current User Settings:"
+    for key, value in settings.items():
+        output += f"\n{key.capitalize()}: {value}"
+
+    return output
+
+
+# Test dictionary
+test_settings = {
+    'theme': 'dark',
+    'notifications': 'enabled',
+    'volume': 'high'
+}
+
+# Example testing:
+print(add_setting(test_settings, ("language", "English")))
+print(update_setting(test_settings, ("theme", "Light")))
+print(delete_setting(test_settings, "volume"))
+print(view_settings(test_settings))
