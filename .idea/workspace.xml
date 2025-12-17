@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c82f5741-1330-4c5b-bcc6-3e5e2b717c8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ISBN_build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tryCatch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISBN_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/ISBN_build.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,23 +31,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ISBN_build.executor": "Run",
-    "Python.StringCompression.executor": "Run",
-    "Python.UserConfigurationManager.executor": "Run",
-    "Python.buildMedicalData.executor": "Run",
-    "Python.buildPinExtractor.executor": "Run",
-    "Python.modules.executor": "Run",
-    "Python.numberPatternGenerator.executor": "Run",
-    "Python.tryCatch.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ISBN_build.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StringCompression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UserConfigurationManager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buildMedicalData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buildPinExtractor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modules.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numberPatternGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tryCatch.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -65,5 +64,16 @@
       <updated>1765015864978</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
