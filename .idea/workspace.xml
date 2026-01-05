@@ -36,6 +36,7 @@
     "Python.PlanetClass.executor": "Run",
     "Python.StringCompression.executor": "Run",
     "Python.UserConfigurationManager.executor": "Run",
+    "Python.buildEmailManager.executor": "Run",
     "Python.buildMedicalData.executor": "Run",
     "Python.buildPinExtractor.executor": "Run",
     "Python.modules.executor": "Run",
