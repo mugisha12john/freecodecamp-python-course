@@ -52,3 +52,46 @@ def create_spend_chart(categories):
 # clothing = Category('Clothing')
 # food.transfer(50, clothing)
 # print(food)
+
+def create_spend_chart(categories):
+    chart = "Percentage spent by category\n"
+
+    spent = []
+    for category in categories:
+        total = 0
+        for item in category.ledger:
+            if item["amount"] < 0:
+                total += -item["amount"]
+        spent.append(total)
+
+    total_spent = sum(spent)
+
+    percentages = []
+    for amount in spent:
+        percent = (amount / total_spent) * 100
+        percentages.append(int(percent // 10) * 10)
+
+    for level in range(100, -1, -10):
+        chart += f"{level:>3}| "
+        for percent in percentages:
+            if percent >= level:
+                chart += "o  "
+            else:
+                chart += "   "
+        chart += "\n"
+
+    chart += "    " + "-" * (len(categories) * 3) + "\n"
+
+    names = [category.name for category in categories]
+    max_length = max(len(name) for name in names)
+
+    for i in range(max_length):
+        chart += "     "
+        for name in names:
+            if i < len(name):
+                chart += name[i] + "  "
+            else:
+                chart += "   "
+        chart += "\n"
+
+    return chart.rstrip("\n")
