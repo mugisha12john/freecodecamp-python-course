@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c82f5741-1330-4c5b-bcc6-3e5e2b717c8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/getLast.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildBudgetApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildBudgetApp.py" afterDir="false" />
+    <list default="true" id="c82f5741-1330-4c5b-bcc6-3e5e2b717c8c" name="Changes" comment="feat: still working on this">
+      <change afterPath="$PROJECT_DIR$/BuildGameCharacterEncapuslation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.BuildBudgetApp.executor": "Run",
+    "Python.BuildGameCharacterEncapuslation.executor": "Run",
     "Python.ClassAttribute.executor": "Run",
     "Python.ISBN_build.executor": "Run",
     "Python.PlanetClass.executor": "Run",
@@ -68,6 +69,23 @@
       <option name="presentableId" value="Default" />
       <updated>1765015864978</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: get last index from list">
+      <option name="closed" value="true" />
+      <created>1768645916285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768645916285</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: still working on this">
+      <option name="closed" value="true" />
+      <created>1768645938786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768645938787</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,5 +98,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: get last index from list" />
+    <MESSAGE value="feat: still working on this" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: still working on this" />
   </component>
 </project>
