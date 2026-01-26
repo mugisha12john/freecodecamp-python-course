@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c82f5741-1330-4c5b-bcc6-3e5e2b717c8c" name="Changes" comment="feat: still working on this">
-      <change afterPath="$PROJECT_DIR$/BuildGameCharacterEncapuslation.py" afterDir="false" />
+    <list default="true" id="c82f5741-1330-4c5b-bcc6-3e5e2b717c8c" name="Changes" comment="feat: inheritane basic">
+      <change afterPath="$PROJECT_DIR$/polym.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +45,16 @@
     "Python.buildMedicalData.executor": "Run",
     "Python.buildPinExtractor.executor": "Run",
     "Python.getLast.executor": "Run",
+    "Python.inheritance_basic.executor": "Run",
     "Python.modules.executor": "Run",
     "Python.numberPatternGenerator.executor": "Run",
+    "Python.polym.executor": "Run",
     "Python.tryCatch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.python"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -85,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768645938787</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: inheritane basic">
+      <option name="closed" value="true" />
+      <created>1769017866609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769017866609</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: get last index from list" />
     <MESSAGE value="feat: still working on this" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: still working on this" />
+    <MESSAGE value="feat: inheritane basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: inheritane basic" />
   </component>
 </project>
