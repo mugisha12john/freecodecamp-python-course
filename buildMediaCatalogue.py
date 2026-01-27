@@ -56,12 +56,17 @@ class MediaCatalogue:
             raise MediaError('Only Movie or TVSeries instances can be added', media_item)
         self.items.append(media_item)
 
+    def get_movies(self):
+        return [item for item in self.items if type(item) is Movie]
+
+    def get_tv_series(self):
+        return [item for item in self.items if isinstance(item, TVSeries)]
+
     def __str__(self):
         if not self.items:
             return 'Media Catalogue (empty)'
 
         result = f'Media Catalogue ({len(self.items)} items):\n\n'
-
         for i, movie in enumerate(self.items, 1):
             result += f'{i}. {movie}\n'
         return result
@@ -78,9 +83,11 @@ try:
     series1 = TVSeries('Scrubs', 2001, 'Bill Lawrence', 24, 9, 182)
     catalogue.add(series1)
     series2 = TVSeries('Breaking Bad', 2008, 'Vince Gilligan', 47, 5, 62)
-    catalogue.add('series2')
+    catalogue.add(series2)
+
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
 except MediaError as e:
     print(f'Media Error: {e}')
+    print(f'Unable to add {e.obj}: {type(e.obj)}')
