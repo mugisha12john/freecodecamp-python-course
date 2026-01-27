@@ -1,3 +1,11 @@
+class MediaError(Exception):
+    """Custom exception for media-related errors."""
+
+    def __init__(self, message, obj):
+        super().__init__(message)
+        self.obj = obj
+
+
 class Movie:
     """Parent class representing a movie."""
 
@@ -20,6 +28,7 @@ class Movie:
 
 
 class TVSeries(Movie):
+    """Child class representing an entire TV series."""
 
     def __init__(self, title, year, director, duration, seasons, total_episodes):
         super().__init__(title, year, director, duration)
@@ -37,10 +46,14 @@ class TVSeries(Movie):
 
 
 class MediaCatalogue:
+    """A catalogue that can store different types of media items."""
+
     def __init__(self):
         self.items = []
 
     def add(self, media_item):
+        if not isinstance(media_item, Movie):
+            raise MediaError('Only Movie or TVSeries instances can be added', media_item)
         self.items.append(media_item)
 
     def __str__(self):
@@ -65,13 +78,9 @@ try:
     series1 = TVSeries('Scrubs', 2001, 'Bill Lawrence', 24, 9, 182)
     catalogue.add(series1)
     series2 = TVSeries('Breaking Bad', 2008, 'Vince Gilligan', 47, 5, 62)
-    catalogue.add(series2)
-
+    catalogue.add('series2')
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
-
-# getting the docstring from class and it is only be in parent class only
-
-print(movie1.__doc__)
-print(series1.__doc__)
+except MediaError as e:
+    print(f'Media Error: {e}')
