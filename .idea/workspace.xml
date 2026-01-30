@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c82f5741-1330-4c5b-bcc6-3e5e2b717c8c" name="Changes" comment="feat: inheritane basic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c82f5741-1330-4c5b-bcc6-3e5e2b717c8c" name="Changes" comment="feat: inheritane basic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,35 +28,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.BuildBudgetApp.executor": "Run",
-    "Python.BuildGameCharacterEncapuslation.executor": "Run",
-    "Python.ClassAttribute.executor": "Run",
-    "Python.ISBN_build.executor": "Run",
-    "Python.PlanetClass.executor": "Run",
-    "Python.StringCompression.executor": "Run",
-    "Python.UserConfigurationManager.executor": "Run",
-    "Python.abstration_syntax_example.executor": "Run",
-    "Python.buidDiscountCalculatorAbastraction.executor": "Run",
-    "Python.buildEmailManager.executor": "Run",
-    "Python.buildMediaCatalogue.executor": "Run",
-    "Python.buildMedicalData.executor": "Run",
-    "Python.buildPinExtractor.executor": "Run",
-    "Python.getLast.executor": "Run",
-    "Python.inheritance_basic.executor": "Run",
-    "Python.modules.executor": "Run",
-    "Python.numberPatternGenerator.executor": "Run",
-    "Python.polym.executor": "Run",
-    "Python.tryCatch.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "reference.idesettings.debugger.python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.BuildBudgetApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BuildGameCharacterEncapuslation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ClassAttribute.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ISBN_build.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PlanetClass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StringCompression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UserConfigurationManager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.abstration_syntax_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buidDiscountCalculatorAbastraction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buildEmailManager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buildMediaCatalogue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buildMedicalData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buildPinExtractor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.getLast.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inheritance_basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modules.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numberPatternGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polym.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tryCatch.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.python&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
