@@ -1,5 +1,38 @@
-# You should define a class named HashTable with a collection attribute initialized to an empty
-# dictionary when a new instance of HashTable is created. The collection dictionary should store key-value pairs based
-# on the hashed value of the key.
+# The hash method should:
 #
-# The HashTable class should have four instance methods: hash, add, remove, and lookup.
+# Take a string as a parameter.
+# Return a hashed value computed as the sum of
+# the Unicode (ASCII) values of each character in the string.
+# You can use the ord function for this computation.
+class HashTable:
+    def __init__(self):
+        self.collection = {}
+
+    def hash(self, string: str):
+        return sum(ord(char) for char in string)
+
+    def add(self, key, value):
+        hashed_key = self.hash(key)
+
+        if hashed_key not in self.collection:
+            self.collection[hashed_key] = {}
+
+        self.collection[hashed_key][key] = value
+
+    def remove(self, key):
+        hashed_key = self.hash(key)
+
+        if hashed_key in self.collection:
+            if key in self.collection[hashed_key]:
+                del self.collection[hashed_key][key]
+
+                if not self.collection[hashed_key]:
+                    del self.collection[hashed_key]
+
+    def lookup(self, key):
+        hashed_key = self.hash(key)
+
+        if hashed_key in self.collection:
+            return self.collection[hashed_key].get(key)
+
+        return None
